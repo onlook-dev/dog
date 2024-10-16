@@ -10,35 +10,35 @@ const NoiseOverlay = () => (
 
 export default function Page() {
   return (
-    <div className="w-full min-h-screen flex items-center justify-center relative overflow-hidden bg-[#000000] flex-col gap-0">
-      <div className="h-[138px] w-full bg-transparent flex items-end justify-center gap-40">
-        <div className="flex flex-row justify-center items-end grid-cols-none grid-rows-none gap-28 bg-[rgba(0,_0,_0,_0)]">
-          <div className="rounded-tl-[50px] rounded-tr-[50px] h-[120px] w-[286px] text-[#cc2626] border-[#ffffff] border-[10px] bg-[#2c1400]"></div>
+    <div className="w-full min-h-screen flex items-center justify-center relative overflow-hidden flex-col bg-[#6dfbaf] gap-[60px]">
+      <div className="flex flex-col justify-center items-center grid-cols-none grid-rows-none w-[600px] gap-0">
+        <div className="flex flex-row justify-center items-end grid-cols-none grid-rows-none gap-28 bg-[rgba(0,_0,_0,_0)] mb-0">
+          <div className="rounded-tl-[50px] rounded-tr-[50px] h-[120px] w-[286px] text-[#cc2626] border-[#ffffff] bg-[#2c1400] border-[10px]"></div>
           <div className="rounded-tl-[50px] rounded-tr-[50px] h-[120px] w-[286px] text-[#cc2626] border-[#ffffff] bg-[#644800] border-[10px]"></div>
         </div>
-      </div>
-      <div className="text-center relative z-10 p-[12] text-[29px] text-[#fff500] rounded-[62px] flex flex-col gap-0 h-[380px] w-[37%] bg-[#644800] border-[#ffffff] border-[10px] -mt-[10px]">
-        <div className="bg-transparent w-full h-[130px] flex justify-center items-center gap-[30px] p-0">
-          <div className="flex flex-row justify-center items-center grid-cols-none grid-rows-none gap-[50px] mt-0">
-            <div className="w-[102px] h-[79px] rounded-[60px] border-[10px] bg-[#000000]">
-              <div className="w-[39px] h-[30px] bg-[#E3F3FF] rounded-[60px]"></div>
-            </div>
-            <div className="flex flex-row justify-center items-center gap-[50px] grid-cols-none grid-rows-none bg-[#2c1400] p-[20px] rounded-[20px] rounded-tl-none rounded-tr-none">
-              <div className="w-[102px] h-[79px] rounded-[60px] border-[10px] bg-[#000000] m-0 p-0">
+        <div className="text-center relative z-10 p-[12] text-[29px] text-[#fff500] rounded-[62px] flex flex-col gap-0 h-[380px] bg-[#644800] border-[#ffffff] -mt-[10px] w-[560px] border-[10px]">
+          <div className="bg-transparent w-full h-[130px] flex justify-center items-center gap-[30px] p-0">
+            <div className="flex flex-row justify-center items-center grid-cols-none grid-rows-none gap-[50px] mt-0">
+              <div className="w-[102px] h-[79px] rounded-[60px] border-[10px] bg-[#000000]">
                 <div className="w-[39px] h-[30px] bg-[#E3F3FF] rounded-[60px]"></div>
+              </div>
+              <div className="flex flex-row justify-center items-center gap-[50px] grid-cols-none grid-rows-none bg-[#2c1400] p-[20px] rounded-[20px] rounded-tl-none rounded-tr-none">
+                <div className="w-[102px] h-[79px] rounded-[60px] border-[10px] bg-[#000000] m-0 p-0">
+                  <div className="w-[39px] h-[30px] bg-[#E3F3FF] rounded-[60px]"></div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex justify-center flex-col items-center mb-[60px] p-[10px] pr-[40px] pb-0 pl-[30px] w-full h-[fit-content] border-0 bg-transparent gap-0">
-          <div className="flex flex-col justify-center items-center gap-0 grid-cols-none grid-rows-none text-[#804a03] bg-[#2c1400] p-[20px] pb-0 rounded-[30px] rounded-bl-none rounded-br-none">
-            <div className="rounded-[20px] w-[129px] bg-[#753400] border-[10px] h-[51px]"></div>
-            <div className="h-[41px] border-0 w-[12px] rounded-none bg-[#ffffff]"></div>
+          <div className="flex justify-center flex-col items-center mb-[60px] p-[10px] pr-[40px] pb-0 pl-[30px] w-full h-[fit-content] border-0 bg-transparent gap-0">
+            <div className="flex flex-col justify-center items-center gap-0 grid-cols-none grid-rows-none text-[#804a03] bg-[#2c1400] p-[20px] pb-0 rounded-[30px] rounded-bl-none rounded-br-none">
+              <div className="rounded-[20px] w-[129px] bg-[#753400] border-[10px] h-[51px]"></div>
+              <div className="h-[41px] border-0 w-[12px] rounded-none bg-[#ffffff]"></div>
+            </div>
+            <div className="w-full rounded-[50px] h-[11px] bg-[#ffffff]"></div>
           </div>
-          <div className="w-full rounded-[50px] h-[11px] bg-[#ffffff]"></div>
         </div>
       </div>
-      <p className="h-[107px] text-[#ffffff] flex flex-col justify-center items-center w-[fit-content] m-[50px] border-0 bg-transparent text-[56px] font-bold tracking-[7px]">
+      <p className="h-[107px] flex flex-col justify-center items-center w-[fit-content] text-[56px] font-bold text-[#000000] tracking-[0px] border-[10px] p-[10px] bg-[#ffc700] border-[#ff006b] m-0">
         Welcome to my personal website
       </p>
     </div>
